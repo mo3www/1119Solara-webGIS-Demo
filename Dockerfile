@@ -20,7 +20,7 @@ USER user
 # 並關掉加速靜態檔案讀取 (SOLARA_ASSETS_PROXY=False)
 ENV HOME=/home/user \
     PATH=/home/user/.local/bin:$PATH \
-    SOLARA_ASSETS_PROXY=False
+    # SOLARA_ASSETS_PROXY=False
 
 # 7. 複製所有程式碼到工作目錄
 # --chown=user 確保新使用者有權限讀取這些檔案
