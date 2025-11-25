@@ -4,7 +4,7 @@ import os
 
 # 1. 從 Hugging Face Secret 讀取 API Key
 # 如果未設定，提供一個預設值，但地圖將無法正常載入
-MAPTILER_KEY = os.environ.get("MAPTILER_API_KEY", "") 
+MAPTILER_KEY = os.environ.get("https://api.maptiler.com/maps/topo-v2/?key=exYbjfuZgSNI3umuyhZz#0.6/7.20213/-6.59665", "") 
 
 def create_3d_map():
     # 檢查 API Key 是否存在
